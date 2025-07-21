@@ -1380,3 +1380,9 @@ section {
         transition-duration: 0.01ms !important;
     }
 }
+.nav-link:focus,
+.nav-link:focus-visible,
+.nav-link.active {
+  outline: none !important;
+  box-shadow: none !important;
+}
